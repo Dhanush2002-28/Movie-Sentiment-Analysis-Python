@@ -1,0 +1,17 @@
+digraph Sentiment_Analysis_Process {
+	A [label=Start]
+	B [label="Load Movie Review Dataset"]
+	C [label="Preprocess Data (Cleaning, Tokenization)"]
+	D [label="Apply Sentiment Analysis (VADER/TextBlob)"]
+	E [label="Classify as Positive/Negative/Neutral"]
+	F [label="Visualize & Analyze Sentiments"]
+	G [label="Predict Future Sentiment Trends (ARIMA/ML Models)"]
+	H [label=End]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+}

@@ -1,0 +1,22 @@
+digraph Sentiment_Classification_Model {
+	A [label="Input: Movie Reviews"]
+	B [label="Text Preprocessing (Cleaning, Tokenization, Stopword Removal)"]
+	C [label="Feature Extraction (TF-IDF, Word Embeddings)"]
+	D [label="Sentiment Classification Model"]
+	E1 [label="Naïve Bayes"]
+	E2 [label="Random Forest"]
+	E3 [label=LSTM]
+	E4 [label=BERT]
+	F [label="Output: Positive/Negative/Neutral Sentiment"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E1
+	D -> E2
+	D -> E3
+	D -> E4
+	E1 -> F
+	E2 -> F
+	E3 -> F
+	E4 -> F
+}
