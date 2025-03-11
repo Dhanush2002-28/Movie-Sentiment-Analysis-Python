@@ -1,6 +1,3 @@
-Here’s a **README.md** file for your project:  
-
-```markdown
 # Movie Sentiment Analysis and Visualization  
 
 ## Overview  
@@ -28,24 +25,7 @@ This project analyzes audience sentiments from IMDb movie reviews using natural 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/movie-sentiment-analysis.git
-   ```  
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```  
-3. Run the analysis:  
-   ```bash
-   python main.py
-   ```  
-
-## Results  
-- **Sentiment Trends**: Positive and negative sentiment distribution over time.  
-- **Genre-wise Analysis**: Impact of sentiment on different genres.  
-- **Future Predictions**: Forecasting sentiment trends.  
 
 ## Contributors  
-- Dhanush C  
-- Aparna K Shekadar
-
-## License  
-This project is licensed under the MIT License.  
+- [Dhanush C](https://github.com/Dhanush2002-28)  
+- [Aparna K Shekadar](https://github.com/Aparna3622)  
